@@ -16,8 +16,8 @@ const Hero = () => {
   const [query, setQuery] = useState("");
   const [searchSection, setSearchSection] = useState(false);
   const [queryResponse, setQueryResponse] = useState([]);
-  const [id,setID]=useState("");
-  const [isQuerySearched,setIsQuerySearched]=useState(false);
+  const [id, setID] = useState("");
+  const [isQuerySearched, setIsQuerySearched] = useState(false);
   const handleSubmitForFile = async (e) => {
     e.preventDefault();
     if (!checkDescription(description)) {
@@ -61,7 +61,7 @@ const Hero = () => {
       .get(`http://localhost:8000/api/get-some-log-lines/${id}/`)
       .then((res) => setFileLineResponse(res.data));
   };
-  
+
   const getLogLines2 = (data) => {
     let html = data.map((line) => {
       return <li key={line.id}>{line.line}</li>;
@@ -85,13 +85,13 @@ const Hero = () => {
     let response = await getQueryResponse(query, fileLineResponse);
   };
   const getQueryResponse = async (query, fileLineResponse) => {
-  
+
     let r = axios
       .get(
         `http://localhost:8000/api/search/?q=${query}&file_id=${id}`
       )
       .then((res) => setQueryResponse(res.data));
-      setIsQuerySearched(true);
+    setIsQuerySearched(true);
 
     console.log(queryResponse);
   };
@@ -183,9 +183,9 @@ const Hero = () => {
             </div>
           </form>
           {
-            isQuerySearched?( <article className="query-response">
-            <ul className="response-ul">{showResponse(queryResponse)}</ul>
-          </article>):("")
+            isQuerySearched ? (<article className="query-response">
+              <ul className="response-ul">{showResponse(queryResponse)}</ul>
+            </article>) : ("")
           }
         </section>
       ) : (
