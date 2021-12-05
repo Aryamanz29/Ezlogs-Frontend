@@ -3,10 +3,10 @@
 | Index                                                         |
 | ------------------------------------------------------------- |
 | [Contributing to Ezlogs-Frontend](#contributing-to-ezlogs-frontend) |
-| [Role of Mentors](#role-of-mentors)           |
-| [Role of Supervisors](#role-of-supervisors)|
-| [Adding A New Topic](#adding-a-new-topic)|
-| [Index (readme) Files](#index-readme-files)|
+| [We Develop with Github](#we-develop-with-github)           |
+| [Report bugs using Github's issues](#report-bugs-using-githubs-issues)|
+| [Basics of Git and GitHub](#basics-of-git-and-github)|
+| [Fork a project](#fork-a-project)|
 | [Basics of Git & GitHub](#basics-of-git-and-github)           |
 
 
@@ -24,7 +24,7 @@ We love your input! We want to make contributing to this project as easy and tra
 
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
-## We Use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow), So All Code Changes Happen Through Pull Requests
+## We Use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow), So  that all the Code Changes Happen Through Pull Requests
 
 Pull requests are the best way to propose changes to the codebase. We actively welcome your pull requests:
 
@@ -64,7 +64,9 @@ We assume you have created an account on Github and installed Git on your System
 Now enter your name and E-mail (used on Github) address in Git, by using following command.
 
 `$ git config --global user.name "YOUR NAME"`
+
 ` $ git config --global user.email "YOUR EMAIL ADDRESS"`
+
 This is an important step to mark your commits to your name and email.
 
 <br />
@@ -139,7 +141,7 @@ This command adds all the files or you can add specific files by removing -a and
 
 `$ git commit -m "<commit message>"`
 
- The second command gives a message to your changes so you can know in future what changes this commit makes. If you are solving an issue on original repository, you should add the issue number like #35 to your commit message. This will show the reference to commits in the issue.
+ This command gives a message to your changes so you can know in future what changes this commit makes. If you are solving an issue on original repository, you should add the issue number like #35 to your commit message. This will show the reference to commits in the issue.
 
 <br />
 
