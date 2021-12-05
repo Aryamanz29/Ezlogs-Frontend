@@ -7,7 +7,11 @@
 | [Report bugs using Github's issues](#report-bugs-using-githubs-issues)|
 | [Basics of Git and GitHub](#basics-of-git-and-github)|
 | [Fork a project](#fork-a-project)|
-| [Basics of Git & GitHub](#basics-of-git-and-github)           |
+| [Clone the forked project](#clone-the-forked-project)           |
+| [Add a remote (upstream) to original project repository](#add-a-remote-upstream-to-original-project-repository)           |
+| [Synchronizing your fork](#synchronizing-your-fork)           |
+| [Create a new branch for a feature or bugfix](#create-a-new-branch-for-a-feature-or-bugfix)           |
+| [Push code and create a pull request](#push-code-and-create-a-pull-request)           |
 
 
 ## Contributing to Ezlogs-Frontend
