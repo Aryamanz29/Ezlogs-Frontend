@@ -155,3 +155,12 @@ npm run start
 
 
 ![-------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## Contributing Guidelines
+Please follow the [contributing guidelines](./CONTRIBUTING_GUIDELINES.md) to contribute to the project.
+
+## Code of Conduct
+
+This project is governed by the [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. 
+
+![-------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
